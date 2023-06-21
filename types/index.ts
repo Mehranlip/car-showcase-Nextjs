@@ -1,5 +1,8 @@
 import { MouseEventHandler } from "react";
-
+export interface SearchManuFacturerProps {
+  manuFacturer: string;
+  setManuFacturer: (manufacturers: string) => void;
+}
 export interface CustomButtonProps {
   isDisabled?: boolean;
   btnType?: "button" | "submit";
@@ -9,10 +12,7 @@ export interface CustomButtonProps {
   rightIcon?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
-export interface SearchManuFacturerProps {
-  manuFacturer: string;
-  setManuFacturer: (manufacturers: string) => void;
-}
+
 
 export interface CarProps {
   city_mpg: number;
