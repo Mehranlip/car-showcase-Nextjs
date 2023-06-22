@@ -1,3 +1,6 @@
+<img src="https://github.com/Mehranlip/car-showcase-nextjs/assets/60979458/167911f5-f22c-4170-95cb-daac53ffbf13" />
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
